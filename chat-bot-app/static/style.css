@@ -1,0 +1,94 @@
+/* Define reusable variables at the root level */
+:root {
+  --background-color: #FFFFFF; /* White */
+  --text-color: #000000; /* Black */
+  --border-color: #484848; /* Grey */
+  --button-color: #47A268; /* Green */
+}
+
+/* Reset some default browser styles */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  background-color: var(--background-color); /* Use variables */
+  color: var(--text-color); /* Use variables */
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for the chat box */
+.chat-box {
+  height: 450px;
+  overflow: auto;
+  padding: 5px;
+  border: var(--border-color) 1px solid; /* Use variables */
+  border-radius: 5px;
+}
+
+/* Styles for the chat container */
+.chat-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--background-color); /* Use variables */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for chat messages */
+.chat-message {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for user messages */
+.user-message {
+  background-color: var(--background-color); /* Use variables */
+  border: var(--border-color) 1px solid; /* Use variables */
+  border-radius: 5px;
+  margin: 10px;
+  color: var(--text-color); /* Use variables */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for bot messages */
+.bot-message {
+  background-color: var(--background-color); /* Use variables */
+  color: var(--text-color); /* Use variables */
+  border: var(--border-color) 1px solid; /* Use variables */
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for code blocks within messages */
+.message-text pre code {
+  white-space: pre-wrap;
+}
+
+/* Styles for user and bot icons */
+.user-icon,
+.bot-icon {
+  font-size: 20px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+/* Styles for the send button */
+#send-btn {
+  background-color: var(--button-color); /* Use variables */
+  border: none;
+}
+
+/* Styles for the copyright text */
+.copy-right {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: var(--border-color); /* Use variables */
+}
