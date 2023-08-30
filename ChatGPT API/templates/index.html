@@ -18,16 +18,18 @@
 </head>
 
 <body>
-  <div class="container mt-5">
-    <h1 style="color:white">Chat Bot</h1>
-    <div class="chat-box mt-3">
+  <div class="container mt-4">
+    <h2 style="color:rgb(0, 0, 0)">Chat Bot</h2>
+    <div class="chat-box mt-2">
       <!-- Chat messages will be added here dynamically -->
     </div>
     <div class="form-group mt-3">
       <textarea class="form-control" rows="3" placeholder="Type your message here" id="message-input"></textarea>
     </div>
     <button type="button" class="btn btn-primary" id="send-btn">Send</button>
+    
   </div>
+  <p class="copy-right">&copy; 2023 Thareendra2000 &#x2764;</p>
   <script>
 setInterval(highlightAll,1000);
 // Function to highlight code using highlight.js library
@@ -53,7 +55,7 @@ function highlightAll() {
       }
 
       messageDiv.innerHTML = `
-        <img src="{{ url_for('static', filename='images/user.png') }}" class="user-icon"><p>${message}</p>
+        <img src="{{ url_for('static', filename='images/avatar.jpg') }}" class="user-icon"><p>${message}</p>
         `;
 
       chatBox.appendChild(messageDiv);
