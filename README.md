@@ -22,8 +22,7 @@ To get started using this application, please follow the steps below:
 
 Once the application is running, you can use it to generate text based on a prompt that you provide. Simply enter a prompt and the application will use OpenAI's API to generate a response. 
 
-![img1](https://github.com/Thareendra2000/chat-bot-open-ai-api/assets/97722096/aa1bab99-616d-4fa0-9641-7191e20151ef)
-![img2](https://github.com/Thareendra2000/chat-bot-open-ai-api/assets/97722096/68b10400-7811-4c81-ad81-d1e395fd2a9e)
-
+![img2](https://github.com/Thareendra2000/chat-bot-open-ai-api/assets/97722096/cfdb645c-23bf-4d59-9d64-5c16b5949169)
+![img1](https://github.com/Thareendra2000/chat-bot-open-ai-api/assets/97722096/56e62a51-3796-4bdf-9f91-96e96df8b238)
 
 
